@@ -49,3 +49,11 @@ A:
         if(t!=m) goto A;
         for(int i=0;i<t;i++) printf("P%d -> ",seq[i]);
 }
+---------------------------------------------------------
+Processes	Allocation	Max Need	Available	Remaining need
+A B C	A B C	A B C	A B C
+P1	0 1 0	7 5 3	3 3 2	7 4 3
+P2	2 0 0	3 2 2		1 2 2
+P3	3 0 2	9 0 2		6 0 0
+P4	2 1 1	4 2 2		2 1 1
+P5	0 0 2	5 3 3		5 3 1
